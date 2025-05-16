@@ -27,7 +27,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Margin="10 0 0 0 " >
             <TextBlock FontSize="24">Отзывы на техподдержку</TextBlock>
-            <ListBox Grid.Row="1" Margin="10 0 0 0" >
+            <ListBox Grid.Row="1" BorderThickness="0" >
                 <TextBlock>
                     <Run FontSize="22">Дёмин Александр Ильич</Run><LineBreak/>
                     <Run FontSize="14">До него смогли дозвониться</Run><LineBreak/>
@@ -71,29 +71,27 @@
 
             </TextBox>
         </StackPanel>
-        <StackPanel Grid.Row="2" Grid.Column="1">
-            <Button Content="Зарегистрировать" FontSize="30" Width="300" Height="125" Background="#ff5aa56c"  
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Зарегистрировать" FontSize="24" Height="70" Width="200" Background="#ff5aa56c"   
                     />
         </StackPanel>
-        <StackPanel Grid.Row="2" Grid.Column="2">
-            <Button Content="Отменить" FontSize="30" Width="300" Height="125" Background="IndianRed" 
+        <StackPanel Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button Content="Отменить" FontSize="24"  Background="IndianRed" Height="70" Width="200"
         />
         </StackPanel>
         <StackPanel Grid.Column="3" Grid.Row="1">
             <TextBlock Text="Техническая поддежка" FontSize="24"/>
-            <ListBox>
+            <ListBox BorderThickness="0">
                 <TextBlock >
                     <Run FontSize="24">Дёмин Александр Ильич</Run><LineBreak/>
                     <Run FontSize="14">+7 902 444 9184 </Run><LineBreak/>
                 </TextBlock>
-            </ListBox>
-            <ListBox>
+
                 <TextBlock>
                     <Run FontSize="24">Жан вандам Оввв</Run><LineBreak/>
                     <Run FontSize="14">+7 902 5555 9184 </Run><LineBreak/>
                 </TextBlock>
-            </ListBox>
-            <ListBox>
+
                 <TextBlock>
                     <Run FontSize="24">Владимири Ворыф Вовронежочаи</Run><LineBreak/>
                     <Run FontSize="14">+7 902 444 9184 </Run><LineBreak/>
